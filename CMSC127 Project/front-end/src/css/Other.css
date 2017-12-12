@@ -1,0 +1,39 @@
+.inner-content{
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: 'Helvetica';
+}
+
+#myInput{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.inputs{
+  margin: 10px;
+}
+
+#table-header{
+  background: #151718;
+  color: white;
+}
+
+th,td{
+  font-family: 'Helvetica';
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+tr:nth-child(odd) {background-color: #e1e1e1;}
+
+.icon{
+  border: none;
+  background: none;
+}
+
+
+.other-col{
+	  width: 225px;
+	  text-align: left;
+}

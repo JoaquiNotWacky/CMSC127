@@ -1,0 +1,52 @@
+header{
+  background:#33434d;
+  height: 50px;
+	position:fixed;
+	top: 0;
+	 left: 0;
+	 width: 100%;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+	height: 100%;
+}
+
+aside{
+  background: #151718;
+  width: 200px;
+  height: 100%;
+  display: block;
+  position: fixed;
+  left: 0px;
+  font-family: "Helvetica"
+}
+
+aside ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+aside ul li{
+  list-style: none;
+}
+
+aside ul li a{
+  background: #1c1e1f;
+  color:#ccc;
+  border-bottom:  1px solid #111;
+  display: block;
+  width: 180px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+aside ul li a:active{
+  background: #3d4143;
+}
+
+.student-icon{
+  margin-top: 5px;
+  margin-right: 10px;
+}

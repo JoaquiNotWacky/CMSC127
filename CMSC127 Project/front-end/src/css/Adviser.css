@@ -1,0 +1,86 @@
+.inner-content{
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: 'Helvetica';
+}
+
+#myInput{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.inputs{
+  margin: 10px;
+}
+
+#faculty_id-col{
+  width: 160px;
+  text-align: left;
+}
+
+#faculty_pos-col{
+  width: 225px;
+  text-align: left;
+
+}
+
+#fname-col{
+  width: 225px;
+  text-align: left;
+}
+
+#college-col{
+  width: 225px;
+  text-align: left;
+}
+
+#department-col{
+  width: 225px;
+  text-align: left;
+}
+
+#mname-col{
+  width: 225px;
+  text-align: left;
+
+}
+
+#lname-col{
+  width: 225px;
+  text-align: left;
+}
+
+#table-header{
+  background: #151718;
+  color: white;
+}
+
+th,td{
+  font-family: 'Helvetica';
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+tr:nth-child(odd) {background-color: #e1e1e1;}
+
+#add-adviser{
+  float: right;
+  margin-right: 350px;
+}
+
+.icon{
+  border: none;
+  background: none;
+}
+
+.main-button{
+	border: 1px solid rgba(10, 180, 180, 1);
+	background: rgba(20, 20, 20, .6);
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 50px;
+	cursor: pointer;
+	transition: .4s;
+}

@@ -1,0 +1,101 @@
+.inner-content{
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: 'Helvetica';
+	float:left;
+	display: inline-block;
+}
+
+#myInput{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.inputs{
+  margin: 10px;
+}
+
+#paper_id-col{
+  width: 50px;
+  text-align: left;
+}
+
+#status-col{
+  width: 150px;
+  text-align: left;
+}
+
+#title-col{
+  width: 350px;
+  text-align: left;
+}
+
+#class-col{
+  width: 120px;
+  text-align: left;
+}
+
+#award-col{
+  width: 100px;
+  text-align: left;
+}
+
+.list_stud{
+	width: 350px;
+}
+
+#year-col{
+  width: 100px;
+  text-align: left;
+}
+
+#month-col{
+  width: 100px;
+  text-align: left;
+}
+
+#student_no-col{
+  width: 160px;
+  text-align: left;
+}
+
+
+#lname-col{
+  width: 225px;
+  text-align: left;
+}
+
+#table-header{
+  background: #151718;
+  color: white;
+}
+
+th,td{
+  font-family: 'Helvetica';
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+tr:nth-child(odd) {background-color: #e1e1e1;}
+
+#add-paper{
+  float: right;
+  margin-right: 350px;
+}
+
+.icon{
+  border: none;
+  background: none;
+}
+
+.main-button{
+	border: 1px solid rgba(10, 180, 180, 1);
+	background: rgba(20, 20, 20, .6);
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 50px;
+	cursor: pointer;
+	transition: .4s;
+}
